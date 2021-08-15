@@ -1,6 +1,6 @@
 # go-gopher-cli
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/AymenSegni/go-examples)](https://goreportcard.com/report/github.com/AymenSegni/go-examples)
+[![Go Report Card](https://goreportcard.com/badge/github.com/AymenSegni/go-examples/go-gopher-cli)](https://goreportcard.com/report/github.com/AymenSegni/go-examples/go-gopher-cli)
 
 This repo contains a simple CLI (Command Line Interface) application in Go, with a basic code organization.
 We use:
