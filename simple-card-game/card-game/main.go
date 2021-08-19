@@ -26,19 +26,19 @@ func main() {
 	cards.saveToFile("deck_file")
 	fmt.Println("step 4 is done")
 
-	// read deck from file 
-    fmt.Println("step 5: read deck from file")
-	cards = newdeckFromFile("deck_file")
-    cards.print()
-    fmt.Println("step 5 is done")
+	// read deck from file
+	fmt.Println("step 5: read deck from file")
+	cards = newDeckFromFile("deck_file")
+	cards.print()
+	fmt.Println("step 5 is done")
 
 	// shuffle cards
-    fmt.Println("step 6: run shuffle operation")
+	fmt.Println("step 6: run shuffle operation")
 	cards.shuffle()
 	cards.print()
 	fmt.Println("step 6 is done")
 
 	// finish the game
-    fmt.Println("Game Over")
+	fmt.Println("Game Over")
 
 }
